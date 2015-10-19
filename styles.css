@@ -1,1 +1,109 @@
 /* Styles for the Advanced Markup assignment. */
+body {
+	background-image: url('handmaid_rough_cloth_pattern.png');
+	max-width: 900px;
+  	margin: 0 auto;
+}
+h1, h2, h3, h4 {
+	font-family: sans-serif;
+}
+header {
+	background-color: lightgray;
+	text-align: center;
+	min-width: 900px;
+	padding-top: 5px;
+}
+header .top-nav {
+	background-color: lightseagreen;
+	padding: 10px;
+	font-size: 18pt;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	display: inline-block;
+}
+nav a {
+	display: block;
+	width: 200px;
+}
+nav a:hover {
+	color: lightgray;
+}
+.active {
+	font-weight: bold;
+}
+div {
+	background-color: whitesmoke;
+	text-indent: 20px; 
+	margin-top: 0;
+	padding-top: 10px;
+}
+#sidebar {
+	width: 33%;
+	float: right;
+	background: lightgray;
+	padding:15px;
+	font-family: sans-serif;
+}
+#sidebar dl {
+	list-style-type: none;
+	font-family: sans-serif;
+}
+#sidebar ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+#sidebar img {
+	padding-right: 10px;
+}
+#content {
+	background-color: whitesmoke;
+	padding: 20px;
+	font-family: 'Georgia', serif;
+	line-height: 1.8;
+}
+#content .poem {
+	list-style-type: none;
+	font-size: 12pt;
+	line-height: 1.8;
+}
+.firstcharacter { 
+	float: left; font-size: 50px; line-height: 45px; padding-top: 4px; padding-right: 8px; padding-left: 3px;
+}
+#content .bio-photo img {
+	float: left;
+}
+figure {
+	padding: 10px;
+	width: 260px;
+	border: thin silver solid;
+	border-spacing:10px; 
+}
+figure figcaption {
+	display: block;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	text-align: center;
+	width: 260px;
+}
+#selected_works {
+	text-align: left;
+}
+sup {
+        font-size: 0.83em;
+        vertical-align: super;
+        line-height: 0;
+    }
+footer {
+	background-color: whitesmoke;
+	padding: 10px;
+	font-family: 'Georgia', serif;
+}
+footer ul {
+	text-align: center;
+	font-family: sans-serif;
+}
